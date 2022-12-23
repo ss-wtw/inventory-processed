@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category  InventoryProcessed
+ * @package   SixtySeven_InventoryProcessed
+ *
+ */ 
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="SixtySeven\InventoryProcessed\Logger\Logger">
+        <arguments>
+            <argument name="debugSuccessFile" xsi:type="string">log/import_success.log</argument>
+            <argument name="debugErrorFile" xsi:type="string">log/import_error.log</argument>
+        </arguments>
+    </type>
+</config>

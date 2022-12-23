@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category  InventoryProcessed
+ * @package   SixtySeven_InventoryProcessed
+ *
+ */	
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="inventoryprocessed" frontName="inventoryprocessed">
+            <module name="SixtySeven_InventoryProcessed"/>
+        </route>
+    </router>
+</config>
